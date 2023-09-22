@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="960.0" maxWidth="1280.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="960.0" prefWidth="1280.0" translateZ="1.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.space_invaders.view.WelcomeController">
+   <top>
+      <MenuBar maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="1280.0" style="-fx-background-color: #FFA07A;" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Background Story">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#showStory" text="Story" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>
